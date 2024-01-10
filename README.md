@@ -81,6 +81,13 @@ The code is written is a example code which sends a response with a message "Thi
 git clone https://github.com/arnapchapagain/api-schema.git
 ```
 
+### Rename the project
+
+```bash
+mv api-schema <project-name>
+```
+
+
 ### Install dependencies
 
 ```bash
