@@ -2,28 +2,28 @@
   "name": "api-schema",
   "version": "1.0.0",
   "description": "An API schema/project-structure to make scalable and robhust APIs",
-  "main": "src/app.ts",
+  "main": "src/index.ts",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "dev": "nodemon src/app.ts",
-    "start": "tsc && node dist/app.js",
+    "dev": "nodemon src/index.ts",
+    "start": "tsc && node dist/index.js",
     "build": "tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arnapchapagain/api-schema.git"
+    "url": "git+https://github.com/boharasirshak/api-schema.git"
   },
   "keywords": [
     "api-schema"
   ],
-  "author": "Arnap Chapagain",
+  "author": "Sirshak Bohara",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arnapchapagain/api-schema/issues"
+    "url": "https://github.com/boharasirshak/api-schema/issues"
   },
-  "homepage": "https://github.com/arnapchapagain/api-schema#readme",
+  "homepage": "https://github.com/boharasirshak/api-schema#readme",
   "devDependencies": {
     "@types/node": "^20.10.8",
     "nodemon": "^3.0.2",

@@ -3,8 +3,6 @@ import { getExampleMessage } from '../controllers/exampleController';
 
 const router = Router();
 
-router.get('/', (req: Request, res: Response) => {
-  res.json(getExampleMessage());
-});
+router.get('/', getExampleMessage);
 
 export default router;
